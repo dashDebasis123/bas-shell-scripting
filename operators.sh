@@ -12,4 +12,13 @@ echo "Relational operator: "
 if [ $op1 -lt $op2 -a $op1 -eq 5 ]
 then 
 echo "n1 < n2"
+
+elif [ $op1 -gt $op2 ]
+then
+echo "n1 > n2"
+
+else 
+echo "n1 == n2"
+
 fi
+
